@@ -31,4 +31,17 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## none of users use this except me.
+## When you are creating your project with angular cli && scss try this:
+
+`ng new My_New_Project --style=sass`<br>
+
+This generating all your components with predifined sass files.
+
+If you want scss syntax create your project with :
+
+`ng new My_New_Project --style=scss`</br>
+
+If you are changing your existing style in your project
+
+`ng set defaults.styleExt scss`<br>
+Cli handles the rest of it.
