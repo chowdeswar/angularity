@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap';
 
 @Component({
   selector: 'app-root',
