@@ -6,6 +6,9 @@ import { RouterModule, Routes, Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { PrimarypageComponent } from './primarypage/primarypage.component';
+import { MyNewDirectiveDirective } from './my-new-directive.directive';
+import { MyNewPipePipe } from './my-new-pipe.pipe';
+import { MainServiceService } from './main-service.service';
 
 
 const appRoutes: Routes = [
@@ -16,14 +19,16 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    PrimarypageComponent
+    PrimarypageComponent,
+    MyNewDirectiveDirective,
+    MyNewPipePipe,
   ],
   imports: [
     BrowserModule,
     TooltipModule.forRoot(),
     ModalModule.forRoot()
   ],
-  providers: [],
+  providers: [MainServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
