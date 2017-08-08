@@ -11,7 +11,7 @@ import { RouterLink, Router } from '@angular/router';
 export class AppComponent implements OnInit {
   title = 'app';
 
-   ngOnInit() {
+  ngOnInit() {
 
    }
 }
