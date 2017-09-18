@@ -45,3 +45,7 @@ If you are changing your existing style in your project
 
 `ng set defaults.styleExt scss`<br>
 Cli handles the rest of it.
+
+## Use global-cli & local-cli should be same. 
+`instead of getting this error message on terminal`
+ `your global angular cli version (1.2.1) is greater than your local version (1.1.3). the local angular cli version is used.`
