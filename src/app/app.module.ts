@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap';
 import { RouterModule, Routes, Router } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { PrimarypageComponent } from './primarypage/primarypage.component';
@@ -26,7 +27,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     TooltipModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    FormsModule
   ],
   providers: [MainServiceService],
   bootstrap: [AppComponent]
