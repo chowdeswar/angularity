@@ -31,6 +31,12 @@ const HEROES = [
 export class AppComponent implements OnInit {
   title = "tour of heroes";
   heroes = HEROES;
+  hr = ''
+
+  constructor() {
+    this.title = "abckbsabcsc";
+    this.hr = "ksajncksajncsx";
+  }
 
   ngOnInit() {
 
